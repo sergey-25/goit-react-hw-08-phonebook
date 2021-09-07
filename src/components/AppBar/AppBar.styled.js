@@ -1,9 +1,8 @@
 import styled from "@emotion/styled/macro";
 
 export const Нeader = styled.header`
-  background-color: lightsteelblue;
-  box-shadow: rgba(188, 188, 235, 0.3) 0px 2px 8px,
-    rgba(188, 188, 235, 0.3) 0px 4px 12px, rgba(188, 188, 235, 0.3) 0px 8px 28px;
+  background-color: ;
+ border-bottom: 1px solid black;
 `;
 
 export const Nav = styled.nav`
@@ -11,10 +10,9 @@ export const Nav = styled.nav`
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  padding: 20px 60px;
+  padding: 10px 20px;
   font-size: 16px;
   font-weight: 700;
-  text-transform: uppercase;
   @media screen and (min-width: 425px) {
     font-size: 18px;
   }
@@ -22,4 +20,3 @@ export const Nav = styled.nav`
     font-size: 22px;
   }
 `;
-© 2021 GitHub, Inc.
