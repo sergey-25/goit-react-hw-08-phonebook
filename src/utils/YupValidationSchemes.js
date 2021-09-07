@@ -6,7 +6,7 @@ const addContactValidationSchema = Yup.object().shape({
     .min(2, "Too Short!")
     .max(50, "Too Long!")
     .required("Required"),
- 
+  number: Yup.string().phone( true, "Valid number type +380XXXXXXXXX"),
 });
 
 const LogInValidationSchema = Yup.object().shape({
